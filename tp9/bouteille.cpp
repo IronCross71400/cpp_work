@@ -11,7 +11,7 @@ int Bouteille::verser(int q) {
 	int ret_value = 0;
 
 	if (!this->m_ouvert) {
-		cout << "Ben alors, on est déjà bourré ? La bouteille est fermée..." << endl;
+		cout << "Ben alors, on est dÃ©jÃ  bourrÃ© ? La bouteille est fermÃ©e..." << endl;
 		return 0;
 	}
 
@@ -29,7 +29,7 @@ int Bouteille::verser(int q) {
 
 int Bouteille::verser(Verre *pv, int q) {
 	if (!this->m_ouvert) {
-		cout << "Ben alors, on est déjà bourré ? La bouteille est fermée..." << endl;
+		cout << "Ben alors, on est dÃ©jÃ  bourrÃ© ? La bouteille est fermÃ©e..." << endl;
 		return 0;
 	}
 
@@ -47,7 +47,7 @@ int Bouteille::verser(Verre *pv, int q) {
 
 string Bouteille::toString() {
 	stringstream ss;
-	string str = (this->m_ouvert) ? "ouverte" : "fermée";
+	string str = (this->m_ouvert) ? "ouverte" : "fermÃ©e";
 	ss << "Cette bouteille " << str << " de " << this->m_nom << " contient " << this->m_quantite << "cl. ";
 	return ss.str();
 }

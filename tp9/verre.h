@@ -1,7 +1,3 @@
-// test2A
-// test2A
-// test2A
-
 #ifndef VERRE_H_
 #define VERRE_H_
 

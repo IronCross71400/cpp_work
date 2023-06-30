@@ -1,7 +1,3 @@
-// test42
-// test42
-// test42
-
 #ifndef VERRE_H_
 #define VERRE_H_
 
@@ -25,7 +21,6 @@ public:
 
     Verre(int c):contenance(c),quantite(0) {};
     ~Verre() {};
-
 };
 
 ostream& operator<<(ostream& os, Verre& v);

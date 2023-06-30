@@ -21,7 +21,6 @@ public:
 
     Verre(int c):contenance(c),quantite(0) {};
     ~Verre() {};
-
 };
 
 ostream& operator<<(ostream& os, Verre& v);
